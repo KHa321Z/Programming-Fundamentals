@@ -25,7 +25,6 @@ int main()
 	}
 
 	for (int i = 0; i < height2; i++) {
-
 		for (int j = 0; j < height2; j++)
 			((i <= height2 / 2 && (j <= i || j >= (height2 - i - 1))) || (i > height2 / 2 && (j <= (height2 - i - 1) || j >= i))) ? cout << "* " : cout << "  ";
 
